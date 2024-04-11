@@ -24,5 +24,9 @@
             android:id="@+id/webViewFragment"
             android:icon="@drawable/web"
             android:title="Выход в интернет" />
+        <item
+            android:id="@+id/workerMission"
+            android:icon="@drawable/micon"
+            android:title="Управление миссиями" />
     </group>
 </menu>
