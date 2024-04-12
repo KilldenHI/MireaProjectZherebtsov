@@ -26,7 +26,7 @@
             android:title="Выход в интернет" />
         <item
             android:id="@+id/workerMission"
-            android:icon="@drawable/micon"
+            android:icon="@drawable/logogi"
             android:title="Управление миссиями" />
     </group>
 </menu>
