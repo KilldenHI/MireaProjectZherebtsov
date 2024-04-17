@@ -98,7 +98,7 @@ public class WorkerMission extends Fragment {
                 .addTag(NotificationWorker.WORK_TAG)
                 .build();
 
-        WorkManager.getInstance().enqueue(workRequest);
+
 
         WorkManager.getInstance().getWorkInfoByIdLiveData(workRequest.getId())
                 .observe(this, workInfo -> {

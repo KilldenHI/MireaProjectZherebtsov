@@ -18,15 +18,32 @@
             android:title="@string/menu_slideshow" />
         <item
             android:id="@+id/dataFragment"
-            android:icon="@drawable/swicon"
-            android:title="Шо мне нравиться" />
+            android:icon="@drawable/web2"
+            android:title="Давным давно..." />
         <item
             android:id="@+id/webViewFragment"
             android:icon="@drawable/web"
-            android:title="Выход в интернет" />
+            android:title="Выход в галонет" />
         <item
             android:id="@+id/workerMission"
             android:icon="@drawable/logogi"
             android:title="Управление миссиями" />
+        <item
+            android:id="@+id/lightsaber"
+            android:icon="@drawable/ls"
+            android:title="Световой меч" />
+        <item
+            android:id="@+id/lightsaber2"
+            android:icon="@drawable/ls2"
+            android:title="Световой меч 2.0" />
+        <item
+            android:id="@+id/jediDetector"
+            android:icon="@drawable/swicon"
+            android:title="Детектор джедаев" />
+        <item
+            android:id="@+id/darthVaderVoice"
+            android:icon="@drawable/micon"
+            android:title="Голос Дарта Вейдера" />
+
     </group>
 </menu>

@@ -37,4 +37,25 @@
         android:name="ru.mirea.zherebtsov.mireaproject.WorkerMission"
         android:label="fragment_worker_mission"
         tools:layout="@layout/fragment_worker_mission" />
+    <fragment
+        android:id="@+id/lightsaber"
+        android:name="ru.mirea.zherebtsov.mireaproject.lightsaber"
+        android:label="fragment_lightsaber"
+        tools:layout="@layout/fragment_lightsaber" />
+    <fragment
+        android:id="@+id/lightsaber2"
+        android:name="ru.mirea.zherebtsov.mireaproject.lightsaber2"
+        android:label="fragment_lightsaber2"
+        tools:layout="@layout/fragment_lightsaber2" />
+    <fragment
+        android:id="@+id/jediDetector"
+        android:name="ru.mirea.zherebtsov.mireaproject.JediDetector"
+        android:label="fragment_jedi_detector"
+        tools:layout="@layout/fragment_jedi_detector" />
+    <fragment
+        android:id="@+id/darthVaderVoice"
+        android:name="ru.mirea.zherebtsov.mireaproject.DarthVaderVoice"
+        android:label="fragment_darth_vader_voice"
+        tools:layout="@layout/fragment_darth_vader_voice" />
+
 </navigation>
