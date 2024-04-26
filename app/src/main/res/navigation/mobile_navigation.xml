@@ -57,5 +57,15 @@
         android:name="ru.mirea.zherebtsov.mireaproject.DarthVaderVoice"
         android:label="fragment_darth_vader_voice"
         tools:layout="@layout/fragment_darth_vader_voice" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.mirea.zherebtsov.mireaproject.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/textConverter"
+        android:name="ru.mirea.zherebtsov.mireaproject.TextConverter"
+        android:label="fragment_text_converter"
+        tools:layout="@layout/fragment_text_converter" />
 
 </navigation>

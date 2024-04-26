@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "ru.mirea.zherebtsov.mireaproject"
-        minSdk = 23
+        minSdk = 26
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
@@ -39,6 +39,10 @@ android {
 dependencies {
 
 
+
+    implementation("org.apache.poi:poi-ooxml:5.2.0")
+    implementation ("org.apache.xmlbeans:xmlbeans:5.1.1")
+    implementation("androidx.core:core:1.6.0")
     implementation("androidx.work:work-runtime:2.8.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")

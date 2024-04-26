@@ -1,15 +1,12 @@
 package ru.mirea.zherebtsov.mireaproject;
 
 import android.content.pm.PackageManager;
-import android.media.AudioRecord;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
 import android.os.Bundle;
 import android.Manifest;
-import android.media.AudioFormat;
 
 import androidx.annotation.NonNull;
-import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
@@ -19,11 +16,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
 
 import ru.mirea.zherebtsov.mireaproject.databinding.ActivityMainBinding;
@@ -100,8 +94,8 @@ public class DarthVaderVoice extends Fragment {
         dihanie = MediaPlayer.create(getContext(), R.raw.dvdyishit);
         music = MediaPlayer.create(getContext(), R.raw.dvmusic);
 
-        recordButton = view.findViewById(R.id.recordButton);
-        playButton = view.findViewById(R.id.playButton);
+        recordButton = view.findViewById(R.id.b1);
+        playButton = view.findViewById(R.id.b2);
         playButton.setEnabled(false);
 
         recordFilePath = (new File(getActivity().getExternalFilesDir(Environment.DIRECTORY_MUSIC),
@@ -181,8 +175,8 @@ public class DarthVaderVoice extends Fragment {
             player.setDataSource(recordFilePath);
             player.setLooping(true);
             player.prepare();
-            player.setPlaybackParams(player.getPlaybackParams().setPitch(0.91f));
-            player.setPlaybackParams(player.getPlaybackParams().setSpeed(0.6f));
+            player.setPlaybackParams(player.getPlaybackParams().setPitch(0.41f));
+            player.setPlaybackParams(player.getPlaybackParams().setSpeed(0.7f));
 
             music.setVolume(0.1f, 0.1f);
             music.start();
